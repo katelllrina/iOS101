@@ -1,0 +1,6 @@
+print(uberRating(likeCount: 1, dislikeCount: 1))
+print(uberRating(likeCount: 10, dislikeCount: 3))
+print(uberRating(likeCount: 10, dislikeCount: 10))
+print(uberRating(likeCount: 0, dislikeCount: 5))
+print(uberRating(likeCount: 0, dislikeCount: 0))
+print(uberRating(likeCount: 7, dislikeCount: 0))

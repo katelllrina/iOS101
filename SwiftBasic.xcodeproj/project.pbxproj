@@ -28,6 +28,11 @@
 			path = SwiftBasic;
 			sourceTree = "<group>";
 		};
+		018C3B062F420C19001BB78F /* Practice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Practice;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +49,7 @@
 		018C3AAF2F3CC816001BB78F = {
 			isa = PBXGroup;
 			children = (
+				018C3B062F420C19001BB78F /* Practice */,
 				018C3ABA2F3CC816001BB78F /* SwiftBasic */,
 				018C3AB92F3CC816001BB78F /* Products */,
 			);
@@ -74,6 +80,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				018C3ABA2F3CC816001BB78F /* SwiftBasic */,
+				018C3B062F420C19001BB78F /* Practice */,
 			);
 			name = SwiftBasic;
 			packageProductDependencies = (
