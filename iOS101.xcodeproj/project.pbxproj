@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		019129372FABD02B00FFE48B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C3B0D2F42114F001BB78F /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		018C3AB62F3CC816001BB78F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,9 +24,15 @@
 
 /* Begin PBXFileReference section */
 		018C3AB82F3CC816001BB78F /* SwiftBasic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftBasic; sourceTree = BUILT_PRODUCTS_DIR; };
+		018C3B0D2F42114F001BB78F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		0153B75F2F430F6300B35D17 /* Theory */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Theory;
+			sourceTree = "<group>";
+		};
 		018C3ABA2F3CC816001BB78F /* SwiftBasic */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwiftBasic;
@@ -49,7 +59,9 @@
 		018C3AAF2F3CC816001BB78F = {
 			isa = PBXGroup;
 			children = (
+				018C3B0D2F42114F001BB78F /* main.swift */,
 				018C3B062F420C19001BB78F /* Practice */,
+				0153B75F2F430F6300B35D17 /* Theory */,
 				018C3ABA2F3CC816001BB78F /* SwiftBasic */,
 				018C3AB92F3CC816001BB78F /* Products */,
 			);
@@ -70,15 +82,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 018C3ABF2F3CC816001BB78F /* Build configuration list for PBXNativeTarget "SwiftBasic" */;
 			buildPhases = (
-				018C3AB42F3CC816001BB78F /* Sources */,
 				018C3AB52F3CC816001BB78F /* Frameworks */,
 				018C3AB62F3CC816001BB78F /* CopyFiles */,
+				019129342FABD02200FFE48B /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				0153B75F2F430F6300B35D17 /* Theory */,
 				018C3ABA2F3CC816001BB78F /* SwiftBasic */,
 				018C3B062F420C19001BB78F /* Practice */,
 			);
@@ -124,10 +137,11 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		018C3AB42F3CC816001BB78F /* Sources */ = {
+		019129342FABD02200FFE48B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019129372FABD02B00FFE48B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
