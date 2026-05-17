@@ -29,9 +29,9 @@ print(result9)
 длина строки    from startIndex to endIndex
 
 Вопрос    Ответ
-Можно ли использовать только distance?    ❌ нет
+Можно ли использовать только distance?    no
 Почему?    нужен index, а его даёт indices
-Можно ли решить задачу без distance?    ✅ да
+Можно ли решить задачу без distance?  yes
 
 На примере "abcde"
 символ    indices (index)    distance (position)
@@ -44,16 +44,16 @@ e    index(e)                 4
 indices
 for index in wordStringNew.indices
 
-👉 indices = все позиции (индексы) строки
+ indices = все позиции (индексы) строки
 
 Очень важно
 
-👉 indices НЕ даёт:
+ indices НЕ даёт:
 
-символы ❌
-числа 0,1,2 ❌
+символы 
+числа 0,1,2 
 
-👉 indices даёт:
+ indices даёт:
             index — это специальный тип:
 
             String.Index
@@ -61,7 +61,7 @@ for index in wordStringNew.indices
             Это НЕ:
 
             Int
-специальные индексы строки (String.Index) ✅
+специальные индексы строки (String.Index) 
 Как это выглядит по смыслу
 
 Для строки:
@@ -76,12 +76,12 @@ for index in text.indices {
     print(index)
 }
 
-👉 ты получаешь индекс каждого символа, но не сам символ
+ ты получаешь индекс каждого символа, но не сам символ
 
 Как получить символ
 let char = text[index]
 
-👉 теперь:
+ теперь:
 
 index → позиция
 text[index] → символ
@@ -91,7 +91,7 @@ for char in text {
     print(char)
 }
 
-👉 сразу даёт:
+ сразу даёт:
 
 a
 b
@@ -103,13 +103,13 @@ for index in text.indices {
     print(text[index])
 }
 
-👉 тот же результат, но:
+ тот же результат, но:
 
 сначала получаешь индекс
 потом сам берёшь символ
 Зачем вообще нужны indices
 
-👉 когда тебе важно:
+ когда тебе важно:
 
 знать позицию символа
 работать с соседними символами
@@ -118,7 +118,7 @@ for index in text.indices {
 В твоей задаче
 for index in wordStringNew.indices
 
-👉 даёт:
+ даёт:
 
 индекс a
 индекс b
@@ -130,7 +130,7 @@ for index in wordStringNew.indices
 
 let char = wordStringNew[index]
 
-👉 получаешь сам символ
+ получаешь сам символ
 
 Супер-коротко
 Что    Что даёт

@@ -49,7 +49,7 @@ let name = "Hi"   // String
 
 
 
-🔢 Basic Data Types
+*  Basic Data Types
 
 Integer (Int)
 
@@ -63,7 +63,7 @@ String
 
 Character
 
-📦 Collection Types
+*  Collection Types
 
 Array
 
@@ -71,13 +71,13 @@ Dictionary
 
 Set
 
-❓ Special Types
+*  Special Types
 
 Optional
 
 Tuple
 
-🏗 Custom Types
+*  Custom Types
 
 Struct
 
