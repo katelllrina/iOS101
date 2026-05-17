@@ -1,3 +1,6 @@
+import Foundation
+
+
 func runFunctions (){
     let firstSurname = "Kate"
     //firstName = "Dima"// let is constant
@@ -12,6 +15,7 @@ func runFunctions (){
     print(doubleSumSquare(x: 3, y: 4))
 }
 
+
 // sumSquare(3, 4) = 25
 func sumSquare(x: Int, y: Int) -> Int {
     x * x + y * y
@@ -20,3 +24,4 @@ func sumSquare(x: Int, y: Int) -> Int {
 func doubleSumSquare(x: Int, y: Int) -> Int {
     2 * sumSquare(x: x, y: y)
 }
+
