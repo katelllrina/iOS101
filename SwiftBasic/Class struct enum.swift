@@ -2,8 +2,7 @@
 //  Class struct enum.swift
 //  SwiftBasic
 //
-//  Created by Ekaterina Kovanikova on 06/05/2026.
-//
+// 
 import Foundation
 
 //MARK: Class, Struct, ENUM

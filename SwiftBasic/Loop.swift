@@ -2,7 +2,7 @@
 //  loop.swift
 //  SwiftBasic
 //
-//  Created by Ekaterina Kovanikova on 13/04/2026.
+// 
 //
 
 
