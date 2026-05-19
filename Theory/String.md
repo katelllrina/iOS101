@@ -2,7 +2,7 @@
 //  String.swift
 //  SwiftBasic
 //
-//  Created by Ekaterina Kovanikova on 19/04/2026.
+//
 //
 
 let wordStringNew = "abcde"

@@ -2,7 +2,7 @@
 //  md.swift
 //  SwiftBasic
 //
-//  Created by Ekaterina Kovanikova on 25/04/2026.
+//
 //
 
 P - properties свойства const- привязаны к определенному типу
@@ -29,7 +29,7 @@ dictionary.values    [[Int]] (по смыслу)
 flatMap { $0 }       [Int]
 
 
-String:
+//String:
 
 - split
 - prefix
@@ -39,7 +39,7 @@ String:
 - distance(from: wordStringNew.startIndex, to:  index)
 - reversed()
 
-Array:
+//Array:
 - map
 - append
         arrayResult.append(value) - Where.append(what)
@@ -63,7 +63,7 @@ reduce превращает массив в одно значение. 0 - Эт�
 
 
 
-Dictionary:
+//Dictionary:
 - removeAll()
 - [String: Any] String is key, Any means any type of value. Always check if you see "Any" - if let innerDictionary = value as? [Int: Int]
 - dict.values.reduce (take all value from dictionary and SUM)
@@ -74,38 +74,67 @@ dictionary["key"]    значение по ключу
 
 
 
-Set:
+//Set:
 - oddDigits.union(evenDigits).sorted()
 - oddDigits.intersection(evenDigits).sorted()
 - oddDigits.subtracting(singleDigitPrimeNumbers).sorted()
 - oddDigits.symmetricDifference(singleDigitPrimeNumbers).sorted()
 
 
-Int:
+//Int:
 - random
+- Operands are the values or variables that operators work on.
+| Operator | Meaning        |
+| -------- | -------------- |
+| `+`      | addition       |
+| `-`      | subtraction    |
+| `*`      | multiplication |
+| `/`      | division       |
+| `%`      | remainder      |
+| `==`     | equality       |
+| `&&`     | logical AND    |
 
-loop 
+
+//loop 
 - stride(from: 0, to: , by: 2)
 - break and continue
+- repeat  
 - switch, case case default
 - while 
+- ternary conditional operator
+let backgroundColour = cardCount > 11 ? UIColor.red : UIColor.blue
 - if else 
-- guard (?)  - = проверка + ранний выход, если условие НЕ выполняется → выйти из функции. переменная доступна дальше 👇 When: Optional, validation, early exit
+- if as!
+- if as?
+- do catch
+
+- guard (?)  - = проверка + ранний выход, если условие НЕ выполняется → выйти из функции. переменная доступна дальше  When: Optional, validation, early exit
 - for in 
 for _ in 0..<5 значит: мне не нужна переменная цикла. Мы не используем i, потому что нам не важно, какая сейчас итерация: 0, 1, 2, 3 или 4. Нам нужно просто повторить действие 5 раз.
 
 
-Optionals - значение есть или nil
-nil нет значения
-? 
-! если уверен что не nil иначе crash
+//Optionals - значение есть или nil
+- nil нет значения
+- ? 
+- ! если уверен что не nil иначе crash
+- compactMap
+- try!
+- throw / throws
+- optional chaining
+- optionalValue ?? defaultValue
+если optional не nil
+→ возьми его
+если nil
+→ возьми defaultValue
 
 
 
-functional 
+
+//functional 
 
 - inout - &
 - Void 
+- static 
 - didSet  "реакция на изменение" 
 Нужно:
 обновить UI
@@ -118,3 +147,40 @@ functional
 get and set
 
 -----------
+
+//Protocols 
+- Equatable
+- Hashable
+- Comparable 
+- Identifiable 
+- CaseIterable
+- CustomStringConvertable
+- typealias
+- any (any Showable)
+- AnyObject
+- delegate
+
+
+
+//Generics
+
+
+//Key words 
+- throw / throws
+- rethrow 
+- defer {}
+- index( i, offsetBy: size, limitedBy: endIndex)
+- indirect
+- as  (TestStruct() as Foo)
+- is  (TestStruct() is Foo)
+- get set
+- none - some (case some(Value) case none)
+- ExpressibleByNilLiteral
+- where (Value)
+- rhs lhs
+- any/some
+- getCurrentShape()
+- deinit
+- lazy
+
+

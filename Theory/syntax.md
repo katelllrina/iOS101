@@ -178,6 +178,8 @@ false && false = false
 !false = true
 
 
+#ternary conditional operator
+
 let backgroundColour = cardCount > 11 ? UIColor.red : UIColor.blue
 
 condition ? x : y
